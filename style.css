@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+body{
+    background-color: #242424;
+}
+*{
+    color: #fff5f5;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #111111;
+    box-shadow: 2em 2 2 #ffffff;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
 #content{
     display: flex;
     text-align: center;
@@ -8,4 +43,61 @@
 #quoteContainer{
     display: flex;
     flex-direction: row;
+}
+
+#generateButton{
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    color: #ffff;
+    background-color: #0c00b9;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #000000;
+}
+
+#generateButton:hover{background-color: #04003f;}
+
+#generateButton:active{
+    background-color: #02001d;
+    box-shadow: 0 5px #000000;
+    transform: translateY(4px);
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    background-color: #111111;
+    width: 100%;
+}
+
+#footerContent{
+    margin-bottom: 2%;
+    margin-top: 0.5%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+}
+
+#linkedin{
+    margin-right: 0.5%;
+}
+
+#github{
+    margin-left: 0.5%;
+}
+
+#github:hover, #linkedin:hover{
+    color:#02001d
+}
+
+#copyright{
+    font-size: 18px;
 }

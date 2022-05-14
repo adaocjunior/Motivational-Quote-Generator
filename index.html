@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Random Quote Generator</title>
+    <title>RANDOM QUOTE GENERATOR</title>
 </head>
 <body onload="generateAQuote()">
     <header>
@@ -14,7 +14,15 @@
     <div id="content">
         <h2 id="quoteH2">Quote</h2>
         <p id="quoteAuthor">Quote Author</p>
-        <button onclick="generateAQuote()">Generate a random quote</button>
+        <button onclick="generateAQuote()" id="generateButton">Generate a random quote</button>
+        <footer id="footer">
+            <div id="footerContent">
+                <a id="linkedin" href="" target="_blank">LINKEDIN</a>
+                <a>|</a>
+                <a id="github" href="" target="_blank">GITHUB</a>
+                <p id="copyright">© 2022 - Adão Júnior</p>
+            </div>
+        </footer>
     </div>
 
     <script src="app.js"></script>
